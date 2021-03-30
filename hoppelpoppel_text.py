@@ -97,7 +97,33 @@ for i in range(len(eraser)):
 for i in erank:
     df = df.drop([i])
 
-    
+df.reset_index(drop = True, inplace = True)
+
+df = df.drop('rank', axis = 1)
+
+df.reset_index(inplace = True)
+
+df.columns = ['rank', 'text', 'text2']
+
+# Fill 'text2' with text from previous row
+
+for i in range(len(df)-1):
+    if i < len(df):
+        try:
+            df['text2'][i] = df.text[i+1] 
+        except:
+            pass
+
+df['text3_lowercase'] = df.text.str.lower()
+
+# Setting for displaying the full dataframe 
+
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', None)
+pd.set_option('display.max_colwidth', None)
+
+
 
 
 
