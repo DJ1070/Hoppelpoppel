@@ -5,3 +5,5 @@ This is a tiny little private project on a children's story about a little boy, 
 I "scraped" the story from https://www.projekt-gutenberg.org/fallada/hoppelpo/hoppelpo.html and prepared the data for text analytics and visualizations with Tableau.
 
 The Tableau visualization is here and public at: https://public.tableau.com/profile/diana.jaffe#!/vizhome/Hoppelpoppel/Animated .
+
+<img src = "https://images-na.ssl-images-amazon.com/images/I/91JaTwvdLzL._AC_SL1500_.jpg"></img>
