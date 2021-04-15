@@ -6,4 +6,4 @@ I "scraped" the story from https://www.projekt-gutenberg.org/fallada/hoppelpo/ho
 
 The Tableau visualization is here and public at: https://public.tableau.com/profile/diana.jaffe#!/vizhome/Hoppelpoppel/Animated .
 
-<img src = "https://images-na.ssl-images-amazon.com/images/I/91JaTwvdLzL._AC_SL1500_.jpg"></img>
+<img src = "https://images-na.ssl-images-amazon.com/images/I/91JaTwvdLzL._AC_SL1500_.jpg" height = 200></img>
